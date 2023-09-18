@@ -57,7 +57,3 @@ shell
 Copy code
 Write an action (buy, fill, take, remaining, exit):
 You can then enter one of the actions mentioned above and follow the prompts to use the coffee machine.
-##
-
-🧾 License
-This project is licensed under the MIT License - see the LICENSE file for details.
