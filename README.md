@@ -1,4 +1,4 @@
-#Coffee Machine ☕
+##Coffee Machine ☕
 Welcome to the virtual coffee machine! This is a console application that allows you to make your favorite coffee, refill ingredients, take money, and check the remaining resources.
 
 #☕ Features
