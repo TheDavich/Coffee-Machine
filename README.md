@@ -19,7 +19,7 @@ Money (in dollars)
 Exit: You can exit the coffee machine application.
 
 ##
-#🚀 Getting Started
+🚀 Getting Started
 Clone this repository to your local machine.
 
 Open your terminal or command prompt and navigate to the project directory.
@@ -36,7 +36,7 @@ Copy code
 java -jar CoffeeMachine.jar
 
 ##
-#💡 How to Use
+💡 How to Use
 When you run the application, you will be prompted with a list of actions:
 
 buy: Choose this option to buy coffee. You'll be prompted to select the type of coffee (espresso, latte, cappuccino).
@@ -50,7 +50,7 @@ remaining: Check the current status of the coffee machine, including the remaini
 exit: Exit the coffee machine application.
 
 ##
-#📝 Example
+📝 Example
 Here's an example of how you can interact with the coffee machine:
 
 shell
@@ -59,5 +59,5 @@ Write an action (buy, fill, take, remaining, exit):
 You can then enter one of the actions mentioned above and follow the prompts to use the coffee machine.
 ##
 
-#🧾 License
+🧾 License
 This project is licensed under the MIT License - see the LICENSE file for details.
