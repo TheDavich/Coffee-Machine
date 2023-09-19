@@ -1,59 +1,44 @@
-##
-Coffee Machine ☕
-Welcome to the virtual coffee machine! This is a console application that allows you to make your favorite coffee, refill ingredients, take money, and check the remaining resources.
-##
-☕ Features
-Brewing Coffee: You can select the type of coffee you want to brew (espresso, latte, cappuccino), and the application will check if there are enough resources (water, milk, coffee beans, and cups) to make the chosen beverage. If everything is in order, your coffee will be brewed, and the cost will be added to the total money.
+# ☕ Coffee Machine
 
-Refilling Ingredients: If you run out of any ingredients (water, milk, coffee beans, cups), you can refill them into the coffee machine.
+## 📖 Overview
 
-Taking Money: You can withdraw the money collected by the coffee machine.
+The Coffee Machine program simulates a simple coffee machine that can brew various types of coffee, fill its resources, take money, and display the remaining resources. This program is written in Kotlin and runs in a console/command-line environment.
 
-Checking Remaining Resources: You can check the current status of the coffee machine, including the remaining:
+## 🚀 Getting Started
 
-Water (in ml)
-Milk (in ml)
-Coffee beans (in grams)
-Disposable cups
-Money (in dollars)
-Exit: You can exit the coffee machine application.
+To run the Coffee Machine program, follow these steps:
 
-##
-🚀 Getting Started
-Clone this repository to your local machine.
+1. Clone this repository or download the `CoffeeMachine.kt` file.
+2. Compile the Kotlin code (if not already compiled):
+3. Run the program:
 
-Open your terminal or command prompt and navigate to the project directory.
 
-Compile the Kotlin source code:
+## ☕ Features
 
-shell
-Copy code
-kotlinc CoffeeMachine.kt -include-runtime -d CoffeeMachine.jar
-Run the application:
+### Brewing Coffee
 
-shell
-Copy code
-java -jar CoffeeMachine.jar
+- The program allows you to brew three types of coffee: Espresso, Latte, and Cappuccino.
+- To brew a coffee, you'll need to enter the number corresponding to the coffee type when prompted.
+- The coffee machine checks if it has enough resources (water, milk, coffee beans, and cups) to make the selected coffee.
+- If there are enough resources, it brews the coffee, deducts the resources, and adds money. Otherwise, it displays a "Not enough resources" message.
 
-##
-💡 How to Use
-When you run the application, you will be prompted with a list of actions:
+### Refilling Resources
 
-buy: Choose this option to buy coffee. You'll be prompted to select the type of coffee (espresso, latte, cappuccino).
+- You can refill the coffee machine's resources by choosing the "fill" option.
+- You'll be prompted to enter the amount of water, milk, coffee beans, and disposable cups you want to add to the machine.
 
-fill: Use this option to add ingredients to the coffee machine. You can add water, milk, coffee beans, and disposable cups.
+### Taking Money
 
-take: Select this option to take the money collected by the coffee machine.
+- The program allows you to take the money earned from coffee sales. Choose the "take" option to do this.
 
-remaining: Check the current status of the coffee machine, including the remaining resources.
+### Displaying Remaining Resources
 
-exit: Exit the coffee machine application.
+- The "remaining" option displays the current state of the coffee machine, including the amount of water, milk, coffee beans, disposable cups, and money.
 
-##
-📝 Example
-Here's an example of how you can interact with the coffee machine:
+### Exiting the Program
 
-shell
-Copy code
-Write an action (buy, fill, take, remaining, exit):
-You can then enter one of the actions mentioned above and follow the prompts to use the coffee machine.
+- Choose the "exit" option to exit the program.
+
+## 💡 Usage
+
+Follow the on-screen instructions to interact with the Coffee Machine program. You can buy coffee, fill resources, take money, check the remaining resources, and exit the program.
